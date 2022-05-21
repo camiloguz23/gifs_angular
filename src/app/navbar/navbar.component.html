@@ -1,0 +1,6 @@
+<h2 class="menu">Searched</h2>
+<div class="btn_content">
+  <button class="btn" *ngFor="let name of history" (click)="getText(name)"> {{name | titlecase }} </button>
+</div>
+
+

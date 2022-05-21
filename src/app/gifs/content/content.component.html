@@ -1,0 +1,8 @@
+<div class="content_body">
+  <div *ngFor="let contenido of resultado" class="cards animate__animated animate__flipInX">
+    <figure>
+      <img [src]="contenido.images.downsized_medium.url" alt="">
+    </figure>
+    <h3> {{contenido.title}} </h3>
+  </div>
+</div>
